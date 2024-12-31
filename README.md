@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# Kalika
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Kalika** is a web application designed to empower disabled persons by providing them with a platform to sell their manufactured products to the public and access free online doctor consultations. This application bridges the gap between disabled individuals and the resources they need to thrive in their personal and professional lives.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Product Selling Platform**: 
+  - Enables disabled persons to showcase and sell their handmade or manufactured products.
+  - User-friendly interface for listing, browsing, and purchasing products.
 
-### `npm start`
+- **Online Doctor Consultations**:
+  - Provides free online consultations with certified doctors.
+  - Users can book appointments and get prescriptions or medical advice.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **PDF Prescription Generation**:
+  - Generates prescriptions and test data reports in PDF format using **PDF-Lib**.
+  - Users can download and save their medical documents for future use.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tech Stack
 
-### `npm test`
+- **MongoDB**: NoSQL database for managing product and user data.
+- **Express**: Backend framework for building RESTful APIs.
+- **React.js**: Frontend library for creating an interactive user interface.
+- **Node.js**: Runtime environment for executing JavaScript code on the server.
+- **PDF-Lib**: Library for generating PDF documents dynamically.
+- **Axios**: Promise-based HTTP client for API requests.
+- **React Router**: For routing and navigation.
+- **React Toastify**: For displaying notifications and alerts.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ADITHYANBASOK/React-Kalika-Frontend.git
+   cd React-Kalika-Frontend
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+2. Install dependencies for the client:
+   cd client
+   npm install
