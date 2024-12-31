@@ -35,5 +35,4 @@
    cd React-Kalika-Frontend
 
 2. Install dependencies for the client:
-   cd client
    npm install
